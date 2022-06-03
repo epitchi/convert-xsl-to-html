@@ -1,0 +1,171 @@
+tbody{
+}
+.header{
+vertical-align:top
+}
+#section-to-print{	
+  padding:0;	
+  margin-left:0;	
+  width:100%;	
+}
+.invoiceName{
+font-weight:bold;
+font-size:18px;
+}
+.titleInvoice{
+font-weight:bold;
+font-style: normal;
+font-size:16px;
+}
+.serif {
+font-family: "Times New Roman", Times, serif;
+}
+
+.sansserif {
+font-family: Arial, Helvetica, sans-serif;
+}
+.image-box {
+text-align:center;
+}
+.image-box img {
+width: 350px;
+background-image: none;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+margin-top:300px;
+margin-bottom: 100px;
+}
+
+img[src=""] {
+display: none;
+}
+
+.watermark {
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+position: absolute;
+z-index: -2;
+margin-left:auto;
+margin-right:auto;
+width:400px;
+margin-top: 0px;
+}
+
+.itemNormal{
+font-weight: normal;
+padding : 2px 2px 2px 2px;
+font-size:11pt;
+}
+
+.itemBold{
+font-weight:bold;
+/*vertical-align:top;*/
+padding : 2px 2px 2px 2px;
+font-size:11pt;
+}
+.labelNormal{
+padding : 2px 2px 2px 2px;
+font-size:11pt;
+}
+
+.labelItalic{
+padding : 2px 2px 2px 2px;
+font-style: italic;
+color: #000000;
+font-size:11pt;
+}
+
+.labelItalicNormal{
+padding : 2px 2px 2px 2px;
+font-style: italic;
+font-weight: normal;
+color: #000000;
+font-size:11pt;
+}
+
+.labelBold{
+font-weight:bold;
+/*vertical-align:top;*/
+padding : 2px 2px 2px 2px;
+font-size:11pt;
+}
+
+
+
+.boxLarge{
+margin-left:auto;
+margin-right:auto;
+border-collapse: collapse;
+padding : 5px 5px 5px 5px;
+border: 1px solid #626262;
+width:838.267px;
+}
+.boxSmall{
+border-collapse: collapse;
+padding : 5px 5px 5px 5px;
+border: 1px solid;
+}
+.boxSmallTable{
+border-spacing: 0px;
+padding : 0px 0px 0px 0px;
+outline: 1px solid #626262;
+}
+.boxSmallTable .labelBold{	
+  font-size:13px;	
+}	
+.boxSmallTable .labelItalic{	
+  font-size:13px;	
+}
+
+.dataInfoInvoice{
+vertical-align:top;
+font-weight:bold;
+padding : 2px 2px 2px 2px
+}
+.invoiceName{
+color: #000000;
+}
+.invoiceNameItalic{
+color: #000000;
+font-style: italic;
+}
+.titleInvoice{
+color: #000000;
+}
+.itemNormal{
+color: #000000;
+}
+.itemBold{
+color: #000000;
+}
+.labelNormal{
+color: #000000;
+}
+.labelBold{
+color: #000000;
+}
+.boxLarge{
+color: #000000;
+border-style: solid;
+border-width: medium;
+}
+.boxSmall{
+color: #000000;
+}
+
+
+.borderBottom{
+border-bottom: 2px solid #000000;
+}
+.BG {
+background-image: url(signature.png);
+background-repeat: no-repeat;
+background-position: center top;
+background-size: 200px 70px;
+}
+table tr td {	
+  line-height: 23px;	
+}

@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "xslt-js",
+			"label": "demo1",
+			"nodeModulesFolder": "${workspaceFolder}/node_modules",
+			"xsltFile": "${workspaceFolder}/src/demo.xsl",
+			"xmlSource": "${workspaceFolder}/data/book.xml",
+			"resultPath": "${workspaceFolder}/xslt-out/result1.html",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$saxon-xslt-js"
+			]
+		},
+	]
+}
